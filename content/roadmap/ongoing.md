@@ -9,3 +9,4 @@
 - Upgrade Solidity++ VSCode Extension
 - Vite listed on other exchanges (part 1)
 - VITE App upgrade: focus on the development of VITE ecological functions
+- VITE supports Ledger Nano X
