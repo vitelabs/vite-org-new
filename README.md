@@ -4,7 +4,7 @@ Vite is a zero-fee, lightning-fast blockchain for the decentralized economy. Bui
 
 ## Setup
 
-Make sure to install the following dependencies:
+Make sure to install the dependencies:
 
 ```bash
 # yarn
