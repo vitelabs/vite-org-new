@@ -6,7 +6,6 @@
 - Developer environment (Vuilder kit) upgrade
 - ViteJS upgrade
 - Vite App upgrade: Dark theme
-- ViteBridge: deploying bridges to EVM compatible chains on testnet (part 2)
 - Upgrade Vite Connect
 
 ### Q1 2024 Growth
