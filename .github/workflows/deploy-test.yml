@@ -39,7 +39,7 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Build
-        run: yarn run p
+        run: yarn run build
           
       - name: Deploy
         uses: cloudflare/wrangler-action@1.2.0
