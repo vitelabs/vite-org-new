@@ -5,7 +5,7 @@ workers_dev = true
 
 [site]
 bucket = "./dist"
-entry-point = "./workers-site"
+main = "index.html"
 
 [env.production]
 zone_id = "f88e2f1d3639975a214cd2a56eefba13"
