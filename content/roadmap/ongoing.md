@@ -1,4 +1,4 @@
-### Q2 2023 Rebrand
+### Q3 2023 Rebrand
 
 - VITE supports Ledger Nano S
 - Announce of a DAO and board of leaders
