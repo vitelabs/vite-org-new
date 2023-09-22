@@ -1,0 +1,3 @@
+interface Window {
+  YT: any;
+}

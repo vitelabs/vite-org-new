@@ -1,0 +1,22 @@
+<svg width="84" height="84" viewBox="0 0 84 84" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_877_578)">
+<circle cx="42" cy="42" r="42" fill="url(#paint0_linear_877_578)"/>
+<path d="M58.9877 25.9978L49.9964 10L40.9901 25.9978H58.9877Z" stroke="#20202C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M49.9963 10H31.9988L40.99 25.9978L49.9963 10Z" stroke="#20202C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M40.99 25.9979H23L31.9988 41.9958L40.99 25.9979Z" stroke="#20202C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M31.9988 10L23 25.9978H40.99L31.9988 10Z" stroke="#20202C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M23.0902 49.9946L32.0815 66L41.0878 49.9946H23.0902Z" stroke="#20202C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M41.0878 49.9946L32.0815 66H50.0866L41.0878 49.9946Z" stroke="#20202C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M50.0865 34.0044L41.0878 49.9947H59.0853L50.0865 66.0001L59.0853 49.9947L50.0865 34.0044Z" stroke="#20202C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M41.0878 49.9946L50.0865 66L59.0853 49.9946H41.0878Z" stroke="#20202C" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_877_578" x1="42" y1="0" x2="42" y2="84" gradientUnits="userSpaceOnUse">
+<stop offset="0.348958" stop-color="#00BEFF" stop-opacity="0"/>
+<stop offset="1" stop-color="#00BEFF" stop-opacity="0.25"/>
+</linearGradient>
+<clipPath id="clip0_877_578">
+<rect width="84" height="84" fill="white"/>
+</clipPath>
+</defs>
+</svg>
