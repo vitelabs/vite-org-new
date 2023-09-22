@@ -42,7 +42,9 @@ jobs:
         run: yarn run build
           
       - name: Deploy
-        uses: cloudflare/wrangler-action@1.2.0
+        uses: cloudflare/wrangler-action@2.0.0
+        env:
+          USER: root
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
           environment: 'test'
