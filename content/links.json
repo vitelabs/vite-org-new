@@ -1,0 +1,174 @@
+{
+  "viteNet": "https://vite.net",
+  "about": {
+    "joinUs": "https://medium.com/vitelabs/join-vite-labs-b5cced46801"
+  },
+  "docs": {
+    "home": "https://docs.vite.org/",
+    "vitex": "https://docs.vite.org/vite-docs/dex/",
+    "quota":  "https://docs.vite.org/vite-docs/reference/quota.html",
+    "sbp": "https://docs.vite.org/vite-docs/tutorial/node/sbp.html",
+    "fullnode": "https://docs.vite.org/vite-docs/tutorial/node/install.html",
+    "dapp": "https://docs.vite.org/vite-docs/tutorial/dappguide/",
+    "JSSDK": "https://docs.vite.org/vite-docs/vite.js/",
+    "javaSDK": "https://docs.vite.org/vite-docs/vitej/",
+    "vep": "https://docs.vite.org/vite-docs/introduction/",
+    "vscode": "https://docs.vite.org/vite-docs/tutorial/sppguide/introduction/",
+    "smartContract": "https://docs.vite.org/vite-docs/contract/"
+  },
+  "developer": {
+    "vuilderDAO": "https://medium.com/vitelabs/introducing-vuilder-dao-224a1bcf4213",
+    "viteDAO": "https://medium.com/vitelabs/vite-dao-26337eef60b4",
+    "hackathon": {
+      "bounties": "https://medium.com/vitelabs/bug-bounty-program-to-test-large-contracts-and-await-features-69eae60834d9",
+      "gr12": "https://gitcoin.co/hackathon/gr12?org=vitelabs",
+      "gr11": "https://gitcoin.co/hackathon/gr11?org=vitelabs",
+      "gr10": "https://gitcoin.co/hackathon/gr10?org=vitelabs"
+    }
+  },
+  "tutorial": {
+    "start": "https://docs.vite.org/vite-docs/tutorial/node/install.html",
+    "vote": "https://forum.vite.net/topic/4168/how-to-vote-for-sbp-and-earn-voting-rewards",
+    "dappDevelopment": "https://medium.com/vitelabs/vite-ecosystem-projects-c0169892b279",
+    "viteapp": "https://tutorial.vite.net/vite-app-tutorial/",
+    "toolstutorial": "https://tutorial.vite.net/vite-app-tutorial/"
+  },
+  "auditReport": {
+    "native": "https://vitescan.io/token/tti_5649544520544f4b454e6e40",
+    "bep20": "https://bscscan.com/token/0x2794dad4077602ed25a88d03781528d1637898b4",
+    "erc20": "https://etherscan.io/token/0xadd5e881984783dd432f80381fb52f45b53f3e70"
+  },
+  "viteBridge": {
+    "whitePaper": "https://docs.vite.org/vite-docs/bridge/ViteBridge.html",
+    "tutorial": "https://medium.com/vitelabs/vitebridge-0-1-testnet-tutorial-1f3382f389f7",
+    "tryit": "https://bridge-buidl.vite.net/"
+  },
+  "news": {
+    "api": "https://vite.org/api/discover_en.json",
+    "home": "https://medium.com/vitelabs",
+    "weeklyReport": "https://medium.com/vitelabs/tagged/project-updates",
+    "ann": "https://medium.com/vitelabs/announcements/home",
+    "annFifthHardfork": "https://medium.com/vitelabs/ann-upcoming-vite-fifth-hard-fork-insights-sharing-building-an-open-finance-application-674c40b4fb4a",
+    "incentivePlan": "https://medium.com/vitelabs/vite-foundation-community-ecosystem-incentive-plan-dc2b8bcfec87",
+    "devCommittee": "https://medium.com/vitelabs/vite-developer-committee-we-are-looking-to-fund-new-projects-476cba271f26",
+    "syraAnn": "https://forum.vite.net/topic/1280/vite-labs-the-city-of-syracuse-launch-a-first-of-its-kind-municipal-token-economy-syracoin",
+    "vitePayAnn": "https://forum.vite.net/topic/4151/vite-labs-and-alchemy-achieve-strategic-cooperation"
+  },
+  "app": {
+    "home": "https://app.vite.net",
+    "ios": "https://apps.apple.com/us/app/vite-official-hd-wallet/id1437629486",
+    "android": "https://play.google.com/store/apps/details?id=net.vite.wallet"
+  },
+  "wallet": {
+    "webWallet": "https://x.vite.net",
+    "createWallet": "https://x.vite.net/startCreate",
+    "desktopWallet": "https://github.com/vitelabs/vite-wallet/releases"
+  },
+  "vitex": {
+    "mine": "https://vitex.net/mine",
+    "DAO": "https://medium.com/vitelabs/progressive-decentralization-of-vitex-41e31c7823f0",
+    "home": "https://vitex.net"
+  },
+  "forumContent": {
+    "app": "https://forum.vite.net/category/36/vite-wallet",
+    "sbp": "https://forum.vite.net/category/15/sbp-proposals",
+    "syra": "https://forum.vite.net/topic/1280/vite-labs-the-city-of-syracuse-cooperate-to-create-a-first-of-its-kind-municipal-token-economy-syracoin"
+  },
+  "usingVite": {
+    "stakingForQuota": "https://tutorial.vite.net/vite-app-tutorial/quota",
+    "stakingForMining": "https://docs.vite.org/vite-docs/dex/#staking-as-mining",
+    "votingForSBP": "https://forum.vite.net/topic/4168/how-to-vote-for-sbp-and-earn-voting-rewards"
+  },
+  "explorer": {
+    "viteView": "https://viteview.xyz",
+    "viteScan": "https://vitescan.io/",
+    "viteTxs": "https://vitetxs.de",
+    "vitcScan": "https://vitcscan.com",
+    "vitExplorerEu": "https://vitexplorer.fr/",
+    "etherscan": "https://etherscan.io/token/0x1b793E49237758dBD8b752AFC9Eb4b329d5Da016",
+    "coingecko": "https://www.coingecko.com/en/coins/vite"
+  },
+  "exchange": {
+    "vitex": "https://x.vite.net",
+    "binance": "https://www.binance.com/en/trade/VITE_BTC",
+    "binanceUS": "https://www.binance.us/en/trade/pro/VITE_USD",
+    "bittrex": "https://international.bittrex.com/Market/Index?MarketName=BTC-VITE",
+    "upbit": "https://upbit.com/exchange?code=CRIX.UPBIT.BTC-VITE",
+    "coinex": "https://www.coinex.com/exchange/VITE-USDT",
+    "wazirx": "https://wazirx.com/exchange/VITE-INR",
+    "bitrue": "https://www.bitrue.com/trade/vite_usdt",
+    "uniswap": "https://app.uniswap.org/#/swap?inputCurrency=0xadd5e881984783dd432f80381fb52f45b53f3e70&outputCurrency=0xdac17f958d2ee523a2206206994597c13d831ec7",
+    "sushiswap": "https://app.sushi.com/swap",
+    "oneinch": "https://app.1inch.io/#/1/swap/VITE/USDT",
+    "pancakeswap": "https://pancakeswap.finance/swap#/swap?outputCurrency=0x2794dad4077602ed25a88d03781528d1637898b4"
+  },
+  "partners": {
+    "alchemy": "https://alchemypay.org/",
+    "ankr": "https://www.ankr.com/",
+    "btcCom": "https://btc.com/",
+    "harmony": "https://harmony.one",
+    "hashfin": "https://www.hashfin.com",
+    "okx": "https://www.okx.com/",
+    "chainlink": "https://chain.link/",
+    "hashquark": "https://www.hashquark.io/",
+    "f2pool": "https://www.f2pool.com/",
+    "infstones": "https://infinitystones.io/"
+  },
+  "socialMedia": {
+    "forum": "https://forum.vite.net",
+    "coinmarketcap": "https://coinmarketcap.com/currencies/vite/",
+    "twitter": "https://twitter.com/vitelabs",
+    "discord": "https://discordapp.com/invite/CsVY76q",
+    "instagram": "https://www.instagram.com/vite.labs/",
+    "facebook": "https://www.facebook.com/vitelabs/",
+    "blockfolio": "https://blockfolio.com/coin/VITE",
+    "reddit": "https://www.reddit.com/r/vitelabs",
+    "github": "https://github.com/vitelabs",
+    "medium": "https://medium.com/vitelabs",
+    "youtube": "https://www.youtube.com/channel/UC8qft2rEzBnP9yJOGdsJBVg",
+    "bitcoinTalk": "https://bitcointalk.org/index.php?topic=4438416",
+    "telegram": {
+      "ann": "https://t.me/vite_ann",
+      "english": "https://t.me/vite_en",
+      "russia": "https://t.me/vite_russian",
+      "vietnamese": "https://t.me/vite_vietnamese",
+      "japan": "https://t.me/vite_japanese",
+      "arabic": "https://t.me/vite_arabic",
+      "chinese": "https://t.me/vite_zh",
+      "turkish": "https://t.me/vite_turkish",
+      "indonesian": "https://t.me/vite_indonesian",
+      "filipino": "https://t.me/vite_filipino"
+    }
+  },
+  "whitePaper": {
+    "english": "https://github.com/vitelabs/whitepaper/blob/master/vite_en.pdf",
+    "chinese": "https://github.com/vitelabs/whitepaper/blob/master/vite_cn.pdf",
+    "french": "https://github.com/vitelabs/whitepaper/blob/master/vite_fr.pdf",
+    "korean": "https://github.com/vitelabs/whitepaper/blob/master/vite_korean.pdf",
+    "vietnamese": "https://github.com/vitelabs/whitepaper/blob/master/vite_vietnamese.pdf",
+    "russian": "https://github.com/vitelabs/whitepaper/blob/master/vite_russian.pdf",
+    "japan": "https://github.com/vitelabs/whitepaper/blob/master/vite_japan.pdf"
+  },
+  "syraWP": {
+    "en": "https://github.com/vitelabs/whitepaper/blob/master/SyraCoinWhitePaper.pdf",
+    "zh": "https://github.com/vitelabs/whitepaper/blob/master/SyraCoinWhitePaper.pdf"
+  },
+  "vote": {
+    "specific": {
+      "en": "/regSpecificEn",
+      "zh": "/regSpecificCh",
+      "ru": "/regSpecificEn",
+      "vi": "/regSpecificEn"
+    },
+    "apply": {
+      "en": "https://docs.google.com/forms/d/e/1FAIpQLScixWTDuId0MCJQGi0jVI3LCivQ-r5fNUMFCnLf-uodIc_EsA/viewform",
+      "zh": "https://www.jiandaoyun.com/f/5bdbef8be1613237783c264b",
+      "ru": "https://docs.google.com/forms/d/e/1FAIpQLScixWTDuId0MCJQGi0jVI3LCivQ-r5fNUMFCnLf-uodIc_EsA/viewform",
+      "vi": "https://docs.google.com/forms/d/e/1FAIpQLScixWTDuId0MCJQGi0jVI3LCivQ-r5fNUMFCnLf-uodIc_EsA/viewform"
+    },
+    "paysbp": {
+      "en": "https://medium.com/vitelabs/updated-list-of-sbp-who-pay-vite-voters-b461da8e1542"
+    }
+  },
+  "mainnetRelease": "https://forum.vite.net/topic/2753/announcing-the-vite-mainnet-launch"
+}

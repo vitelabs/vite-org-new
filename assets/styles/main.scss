@@ -1,0 +1,336 @@
+@charset "utf-8";
+@import "../../node_modules/bulma/sass/utilities/functions";
+
+// *** Custom bulma ***
+
+// Set your brand colors
+// #20202C
+$grey-darker: hsla(240, 16%, 15%, 1);
+// #2D4665
+$grey-dark: hsla(213, 38%, 29%, 1);
+// #CFD6DF
+$grey: hsla(214, 20%, 84%, 1);
+// // #20202D 10%
+// $grey-light: hsla(240, 17%, 15%, 0.1);
+// $grey-lighter: hsla(240, 17%, 15%, 0.05);
+// $grey-lightest: hsla(240, 17%, 15%, 0.01);
+
+// #00BEFF
+$vite-blue: hsla(195, 100%, 50%, 1);
+// #00FF95
+$vite-green: hsla(155, 100%, 50%, 1);
+$vite-blue-green: linear-gradient(62.7deg, $vite-blue 32.8%, $vite-green 94.95%);
+
+// $link: $grey-dark;
+// $link-hover: $vite-blue;
+
+$custom-colors: (
+  "vite-dark": ($grey-darker, #fff),
+  "vite-light": (#fff, $grey-darker),
+  "vite-grey": (#F5FAFF, $grey-dark),
+);
+
+// $custom-shades: (
+//   "vite-blue": $vite-blue,
+//   "vite-green": $vite-green
+// );
+
+// $border: $grey-lighter !default
+// $border-hover: $grey-light !default
+// $border-light: $grey-lightest !default
+// $border-light-hover: $grey-light !default
+
+// $size-1: 4rem;
+// $size-3: 2.25rem;
+// $size-4: 1.875rem;
+
+$block-spacing: 1.875rem;
+
+// $weight-light: 300 !default
+// $weight-normal: 400 !default
+// $weight-medium: 500 !default
+// $weight-semibold: 600 !default
+// $weight-bold: 700 !default
+$weight-bold: 800;
+
+$family-sans-serif: Manrope, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+$gap: 32px;
+$widescreen: 1120px + (2 * $gap);
+$fullhd: 1440px + (2 * $gap);
+$link: $grey-dark;
+
+$radius-small: 6px;
+$radius: 12px;
+// $radius-large: 12px;
+
+// $size-small: 1.1rem;
+// $size-normal: 1.1rem;
+// $size-medium: 1.5rem;
+// $size-large: 1.875rem;
+
+// Update Bulma's global variables
+// $primary: $vite-blue;
+// $hr-background-color: $grey;
+
+
+// Update some of Bulma's component variables
+
+@import "../../node_modules/bulma/bulma";
+
+// Import only what you need from Bulma
+// @import "../../node_modules/bulma/sass/utilities/_all"
+// @import "../../node_modules/bulma/sass/base/_all"
+// @import "../../node_modules/bulma/sass/elements/_all"
+// @import "../../node_modules/bulma/sass/form/_all"
+// @import "../../node_modules/bulma/sass/components/_all"
+// @import "../../node_modules/bulma/sass/grid/_all"
+// @import "../../node_modules/bulma/sass/helpers/_all"
+// @import "../../node_modules/bulma/sass/layout/_all"
+
+// override & expand
+
+@mixin vite-button {
+  border: none;
+  height: 3em;
+  padding: 1.2em 2em;
+  font-size: 1.25rem;
+  font-weight: 500;
+  &.is-medium {
+    height: 3.75em;
+  }
+
+  @include mobile {
+    padding: 1.1em 1.3em;
+    font-size: 1.125rem;
+  }
+}
+
+.button {
+
+  &.is-vite-dark {
+    @include vite-button;
+
+    &:hover,
+    &.is-hovered {
+      background: $vite-blue-green;
+    }
+  }
+
+  &.is-vite-light {
+    @include vite-button;
+    border: 1px solid $grey;
+
+    &:hover,
+    &.is-hovered {
+      background: $grey-darker;
+      border-color: $grey-darker;
+      color: #fff;
+    }
+
+    &[disabled],
+    fieldset[disabled] {
+      border-color: $grey;
+      color: $grey;
+    }
+  }
+
+  &.is-vite-grey {
+    @include vite-button;
+    height: 3em;
+
+    &:hover,
+    &.is-hovered {
+      background: $vite-blue-green;
+      color: #fff;
+    }
+
+    &:active,
+    &.is-active {
+      background: $vite-blue-green;
+      color: #fff;
+    }
+  }
+}
+
+.buttons {
+  gap: 12px;
+
+  @include mobile {
+    gap: 4px;
+  }
+}
+
+$grid-size: (
+  "one-vs-two": "1fr 2fr",
+  "two-vs-one": "2fr 1fr",
+  "left-auto": "auto 1fr",
+  "right-auto": "1fr auto",
+);
+
+$grid-repeat-size:1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12;
+
+.is-grid {
+  display: grid;
+  gap: $gap;
+  @each $name in $grid-repeat-size {
+    &.is-#{$name} {
+      grid-template-columns: repeat(#{$name}, 1fr);
+    }
+  };
+  @each $name, $value in $grid-size {
+    &.is-#{$name} {
+      grid-template-columns: #{$value};
+    }
+  };
+}
+
+a {
+  &.is-vite-blue {
+    color: $vite-blue;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &.is-vite-blue-darker {
+    color: $grey-darker;
+
+    &:hover {
+      color: $vite-blue;
+    }
+  }
+}
+
+.vite-card {
+  display: grid;
+  align-content: space-between;
+  border: 1px solid $grey;
+  border-radius: 2rem;
+  padding: 1.875rem;
+
+  .title {
+    font-size: 1.875rem;
+    font-weight: $weight-bold;
+    margin-bottom: 0.625rem;
+
+    @include mobile {
+      font-size: 1.5rem;
+    }
+  }
+  &:hover,
+  &:focus,
+  &.active {
+    box-shadow: 0px 95px 38px rgba(32, 32, 45, 0.01), 0px 53px 32px rgba(32, 32, 45, 0.05), 0px 24px 24px rgba(32, 32, 45, 0.09), 0px 6px 13px rgba(32, 32, 45, 0.1), 0px 0px 0px rgba(32, 32, 45, 0.1);
+  }
+}
+
+.vite-box {
+  padding: 1.875rem 1.25rem 1.875rem 1.875rem;
+  border: 1px solid $grey;
+  border-radius: 1.5rem;
+}
+
+a.vite-box {
+  &:hover,
+  &:focus,
+  &.active{
+    box-shadow: 0px 66px 26px rgba(32, 32, 44, 0.01), 0px 37px 22px rgba(32, 32, 44, 0.05), 0px 17px 17px rgba(32, 32, 44, 0.09), 0px 4px 9px rgba(32, 32, 44, 0.1), 0px 0px 0px rgba(32, 32, 44, 0.1);
+  }
+  &.is-vite-blue {
+    &:hover,
+    &:focus,
+    &.active{
+      background: $vite-blue-green;
+      box-shadow: 0px 28px 11px rgba(32, 32, 45, 0.01), 0px 16px 9px rgba(32, 32, 45, 0.05), 0px 7px 7px rgba(32, 32, 45, 0.09), 0px 2px 4px rgba(32, 32, 45, 0.1), 0px 0px 0px rgba(32, 32, 45, 0.1);
+    }
+
+  }
+}
+
+.vite-hero {
+  line-height: 1.6;
+
+  h1.title,
+  > .title {
+    color: $grey-darker;
+    font-size: 4rem;
+    font-weight: $weight-bold;
+    margin-bottom: 1rem;
+    line-height: 1.3;
+  }
+
+  h2.sub-title,
+  > .subtitle {
+    font-size: 2.25rem;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+  }
+
+  .desc {
+    font-size: 1.25rem;
+    margin-bottom: 1.25rem;
+    line-height: 1.6;
+  }
+
+  @include mobile {
+    h1.title,
+    > .title {
+      font-size: 2.25rem;
+    }
+
+    h2.sub-title,
+    > .subtitle {
+      font-size: 1.5rem;
+    }
+
+    .desc {
+      font-size: 1rem;
+    }
+
+  }
+}
+
+
+@mixin ellipse {
+  position: absolute;
+  width: 800px;
+  height: 800px;
+  transform: rotate(-180deg);
+
+  @include mobile {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+$vite-bg-blue: radial-gradient(50% 50% at 50% 50%, rgba(0, 190, 255, .5) 0%, rgba(255, 255, 255, 0) 100%);
+$vite-bg-green: radial-gradient(50% 50% at 50% 50%, rgba(0, 255, 149, .5) 0%, rgba(255, 255, 255, 0) 100%);
+
+@mixin addPaddingInTouch {
+  @include touch {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+.only-mobile {
+  @include tablet {
+    display: none;
+  }
+
+  @inlucde mobile {
+    display: block;
+  }
+}
+
+.except-mobile {
+  @inlucde tablet {
+    display: block;
+  }
+
+  @include mobile {
+    display: none;
+  }
+}

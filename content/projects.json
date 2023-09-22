@@ -1,0 +1,253 @@
+{
+  "apps": [
+    {
+      "name": "51aliens",
+      "logo": "/assets/dapp-logo/aliens.png",
+      "intro": "51 Aliens is an open source decentralized product operating on the Vite blockchain.",
+      "website": "https://51aliens.net/",
+      "tags": [
+        "NFT"
+      ],
+      "socialMedia": {
+        "twitter": "https://twitter.com/intent/user?screen_name=51aliens_"
+      }
+    },
+    {
+      "name": "Bridge Scan",
+      "logo": "/assets/dapp-logo/voltlabs.png",
+      "intro": "The Vite Bridge Explorer",
+      "website": "https://bridge-scan.voltlabs.io/",
+      "tags": [
+        "Explorer"
+      ],
+      "socialMedia": {
+        "discord": "https://discord.com/invite/9JgdKQdYFR"
+      }
+    },
+    {
+      "name": "ExperimentDAO",
+      "logo": "/assets/dapp-logo/experimentdao.png",
+      "intro": "The Most Advanced Gateway DAO on VITE.",
+      "website": "https://dao.thomiz.dev",
+      "tags": [
+        "DAO"
+      ],
+      "socialMedia": {
+        "twitter": "https://twitter.com/ExperimentDAO"
+      }
+    },
+    {
+      "name": "Making Cents",
+      "logo": "/assets/dapp-logo/makingcents.jpg",
+      "intro": "The Leading Social and Education Platform on Vite Ecosystem.",
+      "website": "https://www.makingcents.xyz/",
+      "tags": [
+        "Tools"
+      ],
+      "socialMedia": {
+        "twitter": "https://twitter.com/BeMakingCents",
+        "discord": "https://discord.com/invite/ngqt7TXNNQ"
+      }
+    },
+    {
+      "name": "ViCat",
+      "logo": "/assets/dapp-logo/vicat.png",
+      "intro": "The First Cat Token in the Vite Ecosystem.",
+      "website": "https://vicat.tech",
+      "tags": [
+        "DAO"
+      ],
+      "socialMedia": {
+        "twitter": "https://twitter.com/ViCat_777",
+        "discord": "https://discord.gg/mqRuTWP4wY"
+      }
+    },
+    {
+      "name": "Vita Inu Coin",
+      "logo": "/assets/dapp-logo/vita.png",
+      "intro": "The World's First Light-Speed Dog Coin with Zero Fees and Smart Contracts.",
+      "website": "https://vitainu.org",
+      "tags": [
+        "DAO"
+      ],
+      "socialMedia": {
+        "twitter": "https://twitter.com/VitaInuCoin",
+        "discord": "https://discord.gg/tdsHavKCGq",
+        "telegram": " http://t.me/VitaInu"
+      }
+    },
+    {
+      "name": "Vitamin Coin",
+      "logo": "/assets/dapp-logo/vitamin.svg",
+      "intro": "VitaminCoin is a cryptocurrency that was created to empower the global health and wellness sector by incentivizing good health, and providing passive rewards to holders.",
+      "website": "https://www.vitamincoin.org/home",
+      "tags": [
+        "DAO"
+      ],
+      "socialMedia": {
+        "twitter": "https://twitter.com/vitamin_coin",
+        "discord": "https://discord.gg/KwYrMH8rR3"
+      }
+    },
+    {
+      "name": "VITCBOT",
+      "logo": "/assets/dapp-logo/vitcbot.jpg",
+      "intro": "a cross-chain, multi-token tipbot built on the Vite decentralized network.",
+      "website": "https://tips.vitc.org/",
+      "tags": [
+        "Tools"
+      ],
+      "socialMedia": {
+        "twitter": "https://twitter.com/vitctipbot"
+      }
+    },
+    {
+      "name": "VITCScan",
+      "logo": "/assets/dapp-logo/vitcscan.jpg",
+      "intro": "A block explorer developed by VITC",
+      "website": "https://vitcscan.com/",
+      "tags": [
+        "Explorer"
+      ],
+      "socialMedia": {
+        "twitter": "https://twitter.com/vitamin_coin"
+      }
+    },
+    {
+      "name": "VITCStake",
+      "logo": "/assets/dapp-logo/vitcstake.png",
+      "intro": "VITCStake is a staking platform on the Vite network! Stake a multitude of cross-chain tokens for rewards.",
+      "website": "https://stake.vitc.org/",
+      "tags": [
+        "DeFi"
+      ],
+      "socialMedia": {
+        "twitter": "https://twitter.com/Vitamin_Coin"
+      }
+    },
+    {
+      "name": "VITCSwap",
+      "logo": "/assets/dapp-logo/vitcswap.png",
+      "intro": "VITCSwap marks the beginning of a new era of DeFi on Vite..",
+      "website": "https://swap.vitc.org/",
+      "tags": [
+        "DeFi"
+      ],
+      "socialMedia": {
+        "twitter": "https://twitter.com/Vitamin_Coin",
+        "discord": "https://discord.com/invite/vitamincoin"
+      }
+    },
+    {
+      "name": "Vite Together",
+      "logo": "/assets/dapp-logo/vitetogether.png",
+      "intro": "Vite Together is developing fast, feeless, gasless community voting pools and a no-loss lottery platform to optimize the Vite voter rewards. It is currently under development.",
+      "website": "",
+      "tags": [
+        "DeFi"
+      ],
+      "socialMedia": {
+        "twitter": "https://twitter.com/ViteTogether"
+      }
+    },
+    {
+      "name": "VitePunks",
+      "logo": "/assets/dapp-logo/vitepunks.png",
+      "intro": "The very first NFT collection powered by Vite chain.",
+      "website": "https://vitepunks.com",
+      "tags": [
+        "NFT"
+      ],
+      "socialMedia": {
+        "twitter": "https://twitter.com/VitePunks",
+        "discord": "https://discord.gg/FsB2uZTn5u"
+      }
+    },
+    {
+      "name": "Viterium",
+      "logo": "/assets/dapp-logo/viterium.png",
+      "intro": "A Non-Custodial Wallet for Vite Blockchain.",
+      "website": "https://viterium.io/",
+      "tags": [
+        "Tools"
+      ],
+      "socialMedia": {
+        "twitter": "https://twitter.com/viterium"
+      }
+    },
+    {
+      "name": "ViteScan",
+      "logo": "/assets/dapp-logo/vitescan.png",
+      "intro": "The most professional Vite data service provider.",
+      "website": "https://vitescan.io",
+      "tags": [
+        "Explorer"
+      ],
+      "socialMedia": {
+      }
+    },
+    {
+      "name": "ViteTxs",
+      "logo": "/assets/dapp-logo/vitetxs.png",
+      "intro": "A block explorer developed by the VITE community.",
+      "website": "https://vitetxs.de/#/",
+      "tags": [
+        "Explorer"
+      ],
+      "socialMedia": {
+        "twitter": "https://twitter.com/vitetools"
+      }
+    },
+    {
+      "name": "ViteView",
+      "logo": "/assets/dapp-logo/viteview.png",
+      "intro": "A open source Vite Explorer.",
+      "website": "https://viteview.xyz/#/",
+      "tags": [
+        "Explorer"
+      ],
+      "socialMedia": {
+        "twitter": "https://twitter.com/viteview"
+      }
+    },
+    {
+      "name": "Viva",
+      "logo": "/assets/dapp-logo/viva.png",
+      "intro": "Viva is the first ever decentralized staking protocol built on the fast, secure and feeless Vite chain.",
+      "website": "https://www.vivafi.org",
+      "tags": [
+        "DeFi"
+      ],
+      "socialMedia": {
+        "twitter": "https://twitter.com/vivastakingpool",
+        "discord": "https://discord.com/invite/KH9dfdmycc"
+      }
+    },
+    {
+      "name": "Volt Wallet",
+      "logo": "/assets/dapp-logo/voltwallet.png",
+      "intro": "XGate runs cross-chain services for various cryptocurrencies on Vitex",
+      "website": "https://wallet.voltlabs.io/",
+      "tags": [
+        "Tools"
+      ],
+      "socialMedia": {
+        "twitter": "https://twitter.com/VoltExtension",
+        "discord": "https://discord.com/invite/9JgdKQdYFR"
+      }
+    },
+    {
+      "name": "XGate",
+      "logo": "/assets/dapp-logo/xgate.png",
+      "intro": "XGate runs cross-chain services for various cryptocurrencies on Vitex",
+      "website": "https://vitainu.org",
+      "tags": [
+        "DAO"
+      ],
+      "socialMedia": {
+        "twitter": "https://twitter.com/XGateVite",
+        "discord": "discord.gg/MMS7Wa6c94"
+      }
+    }
+  ]
+}
