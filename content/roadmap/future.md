@@ -1,4 +1,4 @@
-### Q3 2023 Upgrades
+### Q4 2023 Upgrades
 
 - The second mainnet upgrade of 2023
 - Slashing mechanism
@@ -6,11 +6,9 @@
 - Developer environment (Vuilder kit) upgrade
 - ViteJS upgrade
 - Vite App upgrade: Dark theme
-- ViteBridge: deploying bridges to EVM compatible chains on testnet (part 2)
 - Upgrade Vite Connect
-- VITE supports Ledger Nano X
 
-### Q4 2023 Growth
+### Q1 2024 Growth
 
 - Vite listed on new exchanges (part 2)
 - Third-party wallet integrated with VITE Chain

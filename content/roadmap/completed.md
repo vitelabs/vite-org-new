@@ -1,3 +1,12 @@
+### Q2 2023 Rebrand
+
+- VITE supports Ledger Nano S
+- Announce of a DAO and board of leaders
+- Rebrand VITE and Official website upgrade
+- Vite App upgrade: Interactive experience upgrade
+- VITE App upgrade: focus on the development of VITE ecological functions
+
+
 ### Q1 2023 DAO
 
 - First network upgrade of 2023
