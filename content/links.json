@@ -44,7 +44,7 @@
     "tryit": "https://bridge-buidl.vite.net/"
   },
   "news": {
-    "api": "https://vite.org/api/discover_en.json",
+    "api": "/api/news",
     "home": "https://medium.com/vitelabs",
     "weeklyReport": "https://medium.com/vitelabs/tagged/project-updates",
     "ann": "https://medium.com/vitelabs/announcements/home",
