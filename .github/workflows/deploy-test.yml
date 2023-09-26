@@ -1,26 +1,20 @@
-# This is a basic workflow to help you get started with Actions
-
 name: Deploy To Cloudflare [Test]
 
-# Controls when the action will run. 
 on:
-  # Triggers the workflow on push or pull request events but only for the master branch
   push:
-    branches: [ test ]
+    branches:
+      - test
+  pull_request:
+    branches:
+      - test
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
-  deploy:
-    # The type of runner that the job will run on
+  ci:
     runs-on: ubuntu-latest
 
-    environment: cf-worker
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@master
 
       - name: Read .nvmrc
         run: echo ::set-output name=NVMRC::$(cat .nvmrc)
@@ -30,30 +24,23 @@ jobs:
         uses: actions/setup-node@v2.1.2
         with:
           node-version: '${{ steps.nvm.outputs.NVMRC }}'
-          
-      - uses: bahmutov/npm-install@v1
 
-      # Runs a single command using the runners shell
-      - name: Install JS dependencies
-        run:  yarn install
+      - name: Cache node_modules
+        uses: actions/cache@v2
+        with:
+          path: node_modules
+          key: ubuntu-node-v${{ steps.nvm.outputs.NVMRC }}-deps-${{ hashFiles(format('{0}{1}', github.workspace, '/yarn.lock')) }}
 
-      # Runs a set of commands using the runners shell
+      - name: Install Dependencies
+        if: steps.cache.outputs.cache-hit != 'true'
+        run: yarn
+
       - name: Build
-        run: yarn run p
-          
-      - name: Publish to Cloudflare Pages
-        uses: cloudflare/pages-action@v1
+        run: yarn build
+        env:
+          NITRO_PRESET: cloudflare
+
+      - name: Publish to Cloudflare
+        uses: cloudflare/wrangler-action@2.0.0
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
-          accountId: 55cb4036f82767a7f0f757a02a1ec8fd
-          projectName: vite-org-new
-          directory: .output/public
-          # Optional: Enable this if you want to have GitHub Deployments triggered
-          # gitHubToken: ${{ secrets.GITHUB_TOKEN }}
-          # Optional: Switch what branch you are publishing to.
-          # By default this will be the branch which triggered this workflow
-          branch: test
-          # Optional: Change the working directory
-          # workingDirectory: my-site
-          # Optional: Change the Wrangler version, allows you to point to a specific version or a tag such as `beta`
-          wranglerVersion: '3'
