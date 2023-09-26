@@ -3,10 +3,10 @@ name: Deploy To Cloudflare [Prod]
 on:
   push:
     branches:
-      - test
+      - master
   pull_request:
     branches:
-      - test
+      - master
 
 jobs:
   ci:
