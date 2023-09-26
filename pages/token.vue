@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import * as echarts from 'echarts';
+// import * as echarts from 'echarts';
 import mobile from 'is-mobile';
 
 // FIXME: there is a import issue.
-// import * as echarts from 'echarts/core';
-// import { CanvasRenderer } from 'echarts/renderers';
-// import { PieChart } from 'echarts/charts';
-// import { LegendComponent } from 'echarts/components';
+import * as echarts from 'echarts/core';
+import { CanvasRenderer } from 'echarts/renderers';
+import { PieChart } from 'echarts/charts';
+import { LegendComponent } from 'echarts/components';
 
 useHead({
   title: 'VITE coin',
@@ -14,11 +14,11 @@ useHead({
 
 const isMobile = mobile();
 
-// echarts.use([
-//   CanvasRenderer,
-//   PieChart,
-//   LegendComponent
-// ]);
+echarts.use([
+  CanvasRenderer,
+  PieChart,
+  LegendComponent
+]);
 
 const pieChartEl = ref<HTMLElement | null>(null);
 
