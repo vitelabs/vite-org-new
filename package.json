@@ -14,8 +14,7 @@
     "@nuxt/content": "^2.6.0",
     "@types/node": "^18",
     "nuxt": "^3.5.3",
-    "sass": "^1.62.1",
-    "wrangler": "^3.9.0"
+    "sass": "^1.62.1"
   },
   "dependencies": {
     "bulma": "^0.9.4",
