@@ -14,14 +14,15 @@ const news = reactive<any>([]);
 
 onMounted(async () => {
   try {
-    const { data }: {data: any} = await useFetch(links.news.api);
+    const resp = await fetch(links.news.api);
+    const data = await resp.json();
     let n = 9;
     if (isMobile) {
       n = 5;
     }
 
-    if (data.value) {
-      const found = data.value.tags?.find((x: any) => x.tag === 'news');
+    if (data) {
+      const found = data.tags?.find((x: any) => x.tag === 'news');
       if (found) {
         const list = found.list.slice(0, n).map((x: any) => {
           const d = new Date(x.createTime * 1000);
@@ -36,6 +37,7 @@ onMounted(async () => {
       }
     }
   } catch (e) {
+    console.log(e);
     /* handle error */
   }
 })
