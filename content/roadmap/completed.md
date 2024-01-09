@@ -1,21 +1,13 @@
-### Q2 2023 Rebrand
+### 2023 Rebrand
 
-- VITE supports Ledger Nano S
-- Announce of a DAO and board of leaders
+- Network upgrade of 2023
 - Rebrand VITE and Official website upgrade
+- DAO: release decentralized governance tool：https://dao.vite.org/
 - Vite App upgrade: Interactive experience upgrade
-- VITE App upgrade: focus on the development of VITE ecological functions
-
-
-### Q1 2023 DAO
-
-- First network upgrade of 2023
-- Vote system upgrade
-- Quota system upgrade
-- Initial release of Vite Portal：Encourage the community to run full nodes
-- DAO: release decentralized governance tool
 - ViteBridge: deploying bridges to EVM compatible chains on testnet (part 1)
 - Re-deploy and upgrade vite testnet
+- Announce of a DAO and board of leaders
+- VITE supports Ledger Nano X
 - Publish trade as mining rules and open trade mining for community operators
 - Decentralized gateway: the community and 3rd parties operators will participates in the management of the Vitelabs Gateway
 
@@ -52,12 +44,9 @@
 - [ViteX gateway incentive plan](https://medium.com/vitelabs/vitex-gateway-incentive-plan-dcb58524c12a)
 - Vite.org improvement
 
-### Q4 2021
+### 2021
 - Network upgrade to allow deployment of larger contracts
 - [Deploying BSC bridge on Testnet](https://bridge-buidl.vite.net/)
-
-### Q1-Q3 2021
-
 - [Vite Bridge: Trustless & Universal Cross-chain Transfer Protocol](https://vite.org/Vite%20Bridge:%20Trustless%20&%20Universal%20Cross-chain%20Transfer%20Protocol)
 - Vite DAO: Community governance of Vite's public chain and the ViteX exchange
 - Vite Protocol Updates: Public chain protocol optimization and upgrades
