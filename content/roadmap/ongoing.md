@@ -1,9 +1,16 @@
-### Q3 2023 Rebrand
+### First half of 2024
 
-
-- Vite wallet extension link to web wallet (Login to vitex with extension wallet)
-- Upgrade Solidity++ VSCode Extension
-- Vite listed on other exchanges (part 1)
-- VITE supports Ledger Nano X
-- ViteBridge: deploying bridges to EVM compatible chains on testnet (part 2)
-
+- Stake products: reduce token circulation
+- Web wallet integration VITE Passport
+- Vite iOS App rebrand
+- Update ERC20 & Bep20 vite brand
+- New SBP Incentive Program Released: More SBP and voting
+- Vite Android App rebrand
+- ViteX gateway migration：community gateway
+- VITE ecosystem program to incentivize community projects
+- VITE DAO second stage
+- Hackathon Season 1: Inspiring Community Developers
+- Vite listed on exchanges
+- Vite App Dark theme
+- Release VITE connect SDK: build your dapp or wallet
+- New Partnerships
