@@ -30,10 +30,10 @@ jobs:
 
       - name: Install Dependencies
         if: steps.cache.outputs.cache-hit != 'true'
-        run: yarn
+        run: npm install
 
       - name: Build
-        run: yarn build
+        run: npm run build
         env:
           NITRO_PRESET: cloudflare
           NODE_OPTIONS: "--max_old_space_size=4096"
