@@ -35,7 +35,7 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          NITRO_PRESET: cloudflare
+          NITRO_PRESET: cloudflare_module
           NODE_OPTIONS: "--max_old_space_size=4096"
 
       - name: Publish to Cloudflare
