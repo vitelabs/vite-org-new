@@ -1,21 +1,13 @@
-### Q2 2023 Rebrand
+### 2023 Rebrand
 
-- VITE supports Ledger Nano S
-- Announce of a DAO and board of leaders
+- Network upgrade of 2023
 - Rebrand VITE and Official website upgrade
+- DAO: release decentralized governance tool：https://dao.vite.org/
 - Vite App upgrade: Interactive experience upgrade
-- VITE App upgrade: focus on the development of VITE ecological functions
-
-
-### Q1 2023 DAO
-
-- First network upgrade of 2023
-- Vote system upgrade
-- Quota system upgrade
-- Initial release of Vite Portal：Encourage the community to run full nodes
-- DAO: release decentralized governance tool
 - ViteBridge: deploying bridges to EVM compatible chains on testnet (part 1)
 - Re-deploy and upgrade vite testnet
+- Announce of a DAO and board of leaders
+- VITE supports Ledger Nano X
 - Publish trade as mining rules and open trade mining for community operators
 - Decentralized gateway: the community and 3rd parties operators will participates in the management of the Vitelabs Gateway
 
@@ -52,12 +44,9 @@
 - [ViteX gateway incentive plan](https://medium.com/vitelabs/vitex-gateway-incentive-plan-dcb58524c12a)
 - Vite.org improvement
 
-### Q4 2021
+### 2021
 - Network upgrade to allow deployment of larger contracts
 - [Deploying BSC bridge on Testnet](https://bridge-buidl.vite.net/)
-
-### Q1-Q3 2021
-
 - [Vite Bridge: Trustless & Universal Cross-chain Transfer Protocol](https://vite.org/Vite%20Bridge:%20Trustless%20&%20Universal%20Cross-chain%20Transfer%20Protocol)
 - Vite DAO: Community governance of Vite's public chain and the ViteX exchange
 - Vite Protocol Updates: Public chain protocol optimization and upgrades
@@ -99,49 +88,4 @@
 - Payment - New Adoption
 - Vite Ecosystem - Builds, Incubation and Incentivisation
 
-### Q4 2019
 
-- Payment Fulfilment
-- Vite Android HD Wallet - GRIN Support
-- Java SDK Refactoring
-- First VX (ViteX Token) Mined
-- ViteX Dividend
-- Distribution Update - VX Staking
-- ViteX Referral Program II
-- Full Node Incentive Program II
-
-### Q3 2019
-
-- Vite MainNet - Launch
-- ViteX (DEX) - Launch
-- ViteX in Mobile
-
-### Q2 2019
-- Pre-MainNet Optimization
-- Smart Contract Upgrades
-- DApp Games
-
-### Q1 2019
-
-- Vite Pre-MainNet
-- ViteX (DEX) - Beta Test
-- Smart Contract/Solidity++ Compiler - Beta Test
-- [Vite Multi-Asset HD Wallet](http://vite.org/products#wallet)
-
-### Q4 2018
-
-- [56% of ERC20 VITE Converted to Native](https://medium.com/vitelabs/testnet-an-update-erc20-token-migration-guide-7c200bef7337)
-- Vite TestNet 1.0 - Alpha Test
-- [SBP (Snapshot Block Producer) Activated](https://explorer.vite.net/SBPList)
-- Vite TestNet 1.0 - Launch
-
-### Q3 2018
-- Vite Core 0.1 Golang Implementation
-- [Vite Web Wallet](https://x.vite.net/)
-- Vite iOS Wallet
-- [Vite Block Explorer](https://explorer.vite.net/)
-
-### Q2 2018
-
-- [Vite White Paper](https://www.vite.org/whitepaper/vite_en.pdf)
-- Vite Official Website, Private Sale, Team Establishment
