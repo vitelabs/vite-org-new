@@ -11,7 +11,4 @@ export default defineNuxtConfig({
     path: '~/components',
     global: true
   }],
-  nitro: {
-    preset: 'node-server'
-  }
 })
