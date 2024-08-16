@@ -170,5 +170,9 @@
       "en": "https://medium.com/vitelabs/updated-list-of-sbp-who-pay-vite-voters-b461da8e1542"
     }
   },
-  "mainnetRelease": "https://forum.vite.net/topic/2753/announcing-the-vite-mainnet-launch"
+  "mainnetRelease": "https://forum.vite.net/topic/2753/announcing-the-vite-mainnet-launch",
+  "dao": {
+    "home": "https://dao.vite.org/",
+    "more": "https://medium.com/vitelabs/empoweringcommunity-governance-introducing-vdao-token-airdrop-on-the-vite-network-727820fa41a7"
+  }
 }

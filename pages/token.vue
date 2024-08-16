@@ -60,7 +60,8 @@ onMounted(() => {
       label: {
         formatter: '{d}%',
         fontSize: fontSize,
-        fontWight: '500',
+        fontWight: '600',
+        fontFamily: 'Manrope, system-ui',
       },
       labelLayout: function (params: any) {
         const isLeft = params.labelRect.x < chart.getWidth() / 2;

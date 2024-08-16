@@ -7,8 +7,10 @@ useHead({
 interface App {
   name: string;
   logo: string;
+  intro: string;
+  website: string;
   tags: string[];
-
+  socialMedia: object;
 }
 
 const projectsJSON = await queryContent('/projects').findOne();
