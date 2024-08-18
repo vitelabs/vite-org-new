@@ -120,6 +120,12 @@ function toggleMenu(target: string | null) {
             </div>
 
             <div class="navbar-item no-dropdown root-item">
+              <NuxtLink class="navbar-link is-arrowless goto" to="/dao">
+                DAO
+              </NuxtLink>
+            </div>
+
+            <div class="navbar-item no-dropdown root-item">
               <NuxtLink class="navbar-link is-arrowless goto" to="/ecosystem">
                 Ecosystem
               </NuxtLink>
