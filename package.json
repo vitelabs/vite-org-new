@@ -1,5 +1,6 @@
 {
   "name": "vite-org",
+  "version": "0.1.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -13,7 +14,7 @@
   "devDependencies": {
     "@nuxt/content": "^2.6.0",
     "@types/node": "^18",
-    "nuxt": "^3.5.3",
+    "nuxt": "3.5.3",
     "sass": "^1.62.1"
   },
   "dependencies": {

@@ -6,19 +6,19 @@ on:
       - test
 
 jobs:
-  ci:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout
-        uses: actions/checkout@master
+        uses: actions/checkout@v4
 
       - name: Read .nvmrc
-        run: echo ::set-output name=NVMRC::$(cat .nvmrc)
         id: nvm
+        run: echo "NVMRC=$(cat .nvmrc)" >> "$GITHUB_OUTPUT"
 
       - name: Setup Node
-        uses: actions/setup-node@v2.1.2
+        uses: actions/setup-node@v4
         with:
           node-version: '${{ steps.nvm.outputs.NVMRC }}'
 
@@ -26,19 +26,19 @@ jobs:
         uses: actions/cache@v2
         with:
           path: node_modules
-          key: ubuntu-node-v${{ steps.nvm.outputs.NVMRC }}-deps-${{ hashFiles(format('{0}{1}', github.workspace, '/yarn.lock')) }}
+          key: ubuntu-node-v${{ steps.nvm.outputs.NVMRC }}-deps-${{ hashFiles(format('{0}{1}', github.workspace, '/package.json')) }}
 
       - name: Install Dependencies
         if: steps.cache.outputs.cache-hit != 'true'
-        run: yarn
+        run: npm install
 
       - name: Build
-        run: yarn build
+        run: npm run build
         env:
-          NITRO_PRESET: cloudflare
+          NITRO_PRESET: cloudflare_module
           NODE_OPTIONS: "--max_old_space_size=4096"
 
       - name: Publish to Cloudflare
-        uses: cloudflare/wrangler-action@2.0.0
+        uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CF_API_TOKEN }}
