@@ -57,7 +57,9 @@ jobs:
         run: npm install
 
       - name: Build
-        run: npm run p
+        run: npm run build
+        env:
+          NITRO_PRESET: github_pages
 
       - name: List files
         run: ls -lF .output/public
