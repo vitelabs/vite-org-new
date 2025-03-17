@@ -57,7 +57,7 @@ jobs:
         run: npm install
 
       - name: Build
-        run: npm run build
+        run: npm run p
         env:
           NITRO_PRESET: github_pages
 
