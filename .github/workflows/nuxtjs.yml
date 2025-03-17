@@ -1,7 +1,3 @@
-# Sample workflow for building and deploying a Nuxt site to GitHub Pages
-#
-# To get started with Nuxt see: https://nuxtjs.org/docs/get-started/installation
-#
 name: Deploy Nuxt site to Pages
 
 on:
@@ -61,12 +57,12 @@ jobs:
         run: npm install
 
       - name: Build
-        run: npm run build
+        run: npm run p
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./.output/public
+          path: ./dist
 
   # Deployment job
   deploy:
