@@ -59,10 +59,14 @@ jobs:
       - name: Build
         run: npm run p
 
+      - name: List files
+        run: ls -lF .output/public
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist
+          path: ./.output/public
+          overwrite: true
 
   # Deployment job
   deploy:
