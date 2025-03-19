@@ -1,9 +1,7 @@
 name: Deploy To Cloudflare [Prod]
 
 on:
-  push:
-    branches:
-      - master
+  workflow_dispatch:
 
 jobs:
   deploy:
