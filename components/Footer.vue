@@ -43,7 +43,6 @@ const links = await queryContent('/links').findOne()
         <dl>
           <dt>Community</dt>
           <dd><NuxtLink to="/community">Join Our Community</NuxtLink></dd>
-          <dd><a target="_blank" :href="links.socialMedia.forum">Vite Forum</a></dd>
         </dl>
 
         <dl>
@@ -102,7 +101,7 @@ const links = await queryContent('/links').findOne()
       </div>
     </section>
 
-    <p class="container is-max-widescreen copyright">© 2018-2023 Vite Labs Limited. All Rights Reserved.</p>
+    <p class="container is-max-widescreen copyright">© 2018-2023 ViteLabs. All Rights Reserved.</p>
 
   </footer>
 

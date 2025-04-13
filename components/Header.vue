@@ -88,7 +88,6 @@ function toggleMenu(target: string | null) {
               <div class="navbar-dropdown">
                 <NuxtLink class="navbar-item" to="/token">About VITE</NuxtLink>
                 <a class="navbar-item" target="_blank" :href="links.docs.home">Tech Docs</a>
-                <a class="navbar-item" target="_blank" :href="links.tutorial.viteapp">Tutorial</a>
                 <NuxtLink class="navbar-item" to="/faqs">FAQs</NuxtLink>
               </div>
             </div>
@@ -111,7 +110,7 @@ function toggleMenu(target: string | null) {
                 <a class="navbar-item" target="_blank" :href="links.wallet.desktopWallet">Desktop Wallet</a>
                 <hr class="navbar-divider" />
                 <p class="menu-label">Explorer</p>
-                <a class="navbar-item" target="_blank" :href="links.explorer.viteScan">ViteScan.io</a>
+                <a class="navbar-item" target="_blank" :href="links.explorer.viteExplorer">Vite Explorer</a>
                 <a class="navbar-item" target="_blank" :href="links.explorer.viteView">ViteView.xyz</a>
                 <a class="navbar-item" target="_blank" :href="links.explorer.viteTxs">ViteTxs.de</a>
                 <a class="navbar-item" target="_blank" :href="links.explorer.vitcScan">VITCScan</a>
@@ -135,7 +134,6 @@ function toggleMenu(target: string | null) {
               <a class="navbar-link" @click="toggleMenu('community')">Community</a>
               <div class="navbar-dropdown">
                 <NuxtLink class="navbar-item" to="/community">Join Our Community</NuxtLink>
-                <a class="navbar-item" target="_blank" :href="links.socialMedia.forum">Vite Forum</a>
               </div>
             </div>
 

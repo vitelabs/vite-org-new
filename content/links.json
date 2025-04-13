@@ -14,7 +14,7 @@
     "javaSDK": "https://docs.vite.org/vite-docs/vitej/",
     "vep": "https://docs.vite.org/vite-docs/introduction/",
     "vscode": "https://docs.vite.org/vite-docs/tutorial/sppguide/introduction/",
-    "smartContract": "https://docs.vite.org/vite-docs/contract/"
+    "smartContract": "https://docs.vite.org/soliditypp/fundamentals/"
   },
   "developer": {
     "vuilderDAO": "https://medium.com/vitelabs/introducing-vuilder-dao-224a1bcf4213",
@@ -60,8 +60,8 @@
     "android": "https://play.google.com/store/apps/details?id=net.vite.wallet"
   },
   "wallet": {
-    "webWallet": "https://x.vite.net",
-    "createWallet": "https://x.vite.net/startCreate",
+    "webWallet": "https://wallet.vite.net",
+    "createWallet": "https://wallet.vite.net/startCreate",
     "desktopWallet": "https://github.com/vitelabs/vite-wallet/releases"
   },
   "vitex": {
@@ -80,6 +80,7 @@
     "votingForSBP": "https://forum.vite.net/topic/4168/how-to-vote-for-sbp-and-earn-voting-rewards"
   },
   "explorer": {
+    "viteExplorer": "https://explorer.vite.net",
     "viteView": "https://viteview.xyz",
     "viteScan": "https://vitescan.io/",
     "viteTxs": "https://vitetxs.de",
@@ -117,7 +118,7 @@
   "socialMedia": {
     "forum": "https://forum.vite.net",
     "coinmarketcap": "https://coinmarketcap.com/currencies/vite/",
-    "twitter": "https://twitter.com/vitelabs",
+    "twitter": "https://x.com/search?q=%24vite",
     "discord": "https://discordapp.com/invite/CsVY76q",
     "instagram": "https://www.instagram.com/vite.labs/",
     "facebook": "https://www.facebook.com/vitelabs/",
